@@ -1,4 +1,4 @@
-FROM debian:11-slim
+FROM debian:12-slim
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y dnsmasq && \
     apt-get clean && \
