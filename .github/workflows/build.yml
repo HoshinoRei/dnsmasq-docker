@@ -36,8 +36,6 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: ${{ secrets.DOCKERHUB_USERNAME }}/dnsmasq
-          flavor: |
-            latest=true
           tags: |
             type=edge,branch=master
             type=ref,event=pr
