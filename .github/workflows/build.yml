@@ -14,7 +14,7 @@ on:
       - 'v*'
 jobs:
   build_docker_image:
-    name: build_docker_image
+    name: Build Docker Image
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
