@@ -3,11 +3,11 @@ on:
   push:
     branches:
       - master
-    tags:
-      - 'v*'
     paths:
       - .github/workflows/build.yml
       - Dockerfile
+    tags:
+      - 'v*'
 jobs:
   build:
     name: build_docker_image
